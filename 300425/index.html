@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kıetasiye</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body data-bd-theme="dark" class="bg-secondary">
+   <div class="container">
+    <form  action="kayıt.html" class="row mt-3 was-validated" method="post">
+
+
+
+
+
+             <div class="col-12 form-floating "> 
+              <input type="email" class="form-control " for="floatingInput"  placeholder="yer tutucu" required name="posta" id="posta" aria-describedby="emailHelp">
+                <label for="posta" class="form-label ms-s" >Email</label>
+                <div class="invalid-feedback">
+                    geçersiz e-posta girdiniz. örn:gjfkdgh@gmail.com
+                </div>
+                <div class="valid-feedback">
+                    geçerli e-posta
+                </div>
+             <div class="form-text">segjlıghk</div>
+            </div>
+            <div class="col-12 form-floating mt-2">
+            
+                <input type="text" class="form-control" for="floatingInput" placeholder="guıfsdhg" name="name" id="name" aria-describedby="emailHelp">
+                <label for="name"  class="form-label ">ad</label>
+            </div>
+            <div class="col-12 mt-2">
+                <label for="name" class="form-label ">ad</label>
+                <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp">
+       
+            </div>
+            <div class="col-12">
+                <label for="textra" class="form-label">düşünce </label>
+                <textarea class="form-control" id="textra" rows="3"></textarea>
+            </div>
+            <div class="col-12 mt-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="secim1" name="secim1">
+                    <label class="form-check-label" for="checkDefault">
+                      pastalar
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="secim2" name="secim2">
+                    <label class="form-check-label" for="checkDefault">
+                       tatlılar
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="secim3" name="secim3">
+                    <label class="form-check-label" for="checkDefault">
+                       içecekler
+                    </label>
+                  </div>
+
+            </div>
+             <div class="col-12 mt-3">
+                <label  for="ttur"> talep turu seciniz</label>
+                <select class="form-select" name="ttur" id="ttur">
+                    <option value="1">öneri</option>
+                    <option value="2">talep</option>
+                    <option value="3">şikayet</option>
+                </select>
+
+            </div>
+
+            <div class="col-12 mt-3">
+                <!-- elifin yapma dediği havalı checkbox -->
+                <p>dondurma çeşitleri</p>
+                <input type="checkbox" class="btn-check" id="dondurma1" autocomplete="off">
+                <label class="btn btn-outline-danger" for="dondurma1">karamel </label>
+
+                <input type="checkbox" class="btn-check" id="dondurma2" autocomplete="off">
+                <label class="btn btn-outline-danger" for="dondurma2"> muz</label>
+
+                <input type="checkbox" class="btn-check" id="dondurma3" autocomplete="off">
+                <label class="btn btn-outline-danger" for="dondurma3">çilek </label>
+
+                <input type="checkbox" class="btn-check" id="dondurma4" autocomplete="off">
+                <label class="btn btn-outline-danger" for="dondurma4">kako </label>
+
+            </div>
+            <div class="col-12 mt-3">
+                <p>ödeme türü:</p>
+                <div class="form-check ">
+                    <input class="form-check-input" required type="radio" value="1" id="odeme1" name="odeme">
+                    <label class="form-check-label" for="checkDefault">
+                       Banka kartı
+                    </label>
+                  </div>
+                  <div class="form-check ">
+                    <input class="form-check-input" required type="radio" value="2" id="odeme2" name="odeme">
+                    <label class="form-check-label" for="checkDefault">
+                       Nakit
+                    </label>
+                  </div>
+                  <div class="form-check ">
+                    <input class="form-check-input" required type="radio" value="3" id="odeme23" name="odeme">
+                    <label class="form-check-label" for="checkDefault">
+                       kredi kartı
+                    </label>
+                    <div class="invalid-feedback">
+                    ödeme türü seçiniz
+                </div>
+                  </div>
+               
+                
+
+            </div> 
+              
+            <div class="col-12 mt-3">
+             
+                <div class="input-group mb-3">
+                    <span class="input-group-text">₺</span>
+                    <input type="text" class="form-control" value="670₺">
+                    <span class="input-group-text">.00</span>
+                  </div>
+            </div>
+            <div class="col-12 mt-3">
+                            <button type="submit" class="btn btn-success">Kaydet</button>
+
+            </div>
+           
+
+        
+    
+
+    </form>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
