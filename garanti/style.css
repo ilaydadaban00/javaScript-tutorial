@@ -1,0 +1,15 @@
+.nav-item a :hover{
+    color: blue;
+   
+}
+.is a{
+    color: gray;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: #080808 solid 3px;
+    box-shadow: 0 0 5px  rgba(14, 13, 13, 0.333);
+}

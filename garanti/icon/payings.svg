@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="22px" viewBox="0 0 16 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>odemeler</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobil_" transform="translate(-22.000000, -565.000000)" fill="#1973B8">
+            <path d="M25,565 L25,566 L26,566 L27,565 L28,565 L28,566 L29,566 L30,565 L31,565 L31,566 L32,566 L33,565 L34,565 L34,566 L35,566 L36,565 L37,565 C37.5522847,565 38,565.447715 38,566 L38,586 C38,586.552285 37.5522847,587 37,587 L35,587 L35,586 L34,586 L33,587 L32,587 L32,586 L31,586 L30,587 L29,587 L29,586 L28,586 L27,587 L26,587 L26,586 L25,586 L24,587 L23,587 C22.4477153,587 22,586.552285 22,586 L22,566 C22,565.447715 22.4477153,565 23,565 L25,565 Z M35,578 L25,578 L25,580 L33,580 L35,578 Z M32,574 L25,574 L25,576 L30,576 L32,574 Z M35,570 L25,570 L25,572 L33,572 L35,570 Z" id="odemeler"></path>
+        </g>
+    </g>
+</svg>
