@@ -15,8 +15,8 @@
 	<ul>
 </details>
 <details>
-  <summary>garanti</summary>
+  <summary>210525</summary>
 	<ul>
-		<p><li>index:lightbox kullanımı,owl kullanımı</li></p>    	
+		<p><li>full calender(Takvim)</li></p>    	
 	<ul>
 </details>
