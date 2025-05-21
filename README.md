@@ -8,3 +8,15 @@
     	<p><li>ornek2: JavaScript grup kullanarak resim eklemek</li></p>
 	<ul>
 </details>
+<details>
+  <summary>garanti</summary>
+	<ul>
+		<p><li>index:lightbox kullanımı,owl kullanımı</li></p>    	
+	<ul>
+</details>
+<details>
+  <summary>garanti</summary>
+	<ul>
+		<p><li>index:lightbox kullanımı,owl kullanımı</li></p>    	
+	<ul>
+</details>
